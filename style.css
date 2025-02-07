@@ -1,0 +1,51 @@
+body{
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    max-width: 500px;
+    background-color: aliceblue;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+h2{
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.loan-calculator{
+    margin-top: 30px;
+}
+label{
+    display: block;
+    text-transform: capitalize;
+}
+input{
+    padding: 8px;
+    width: 100%;
+    background-color: lavender;
+    border: 2px solid lavenderblush;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#calculatebtn{
+    border: none;
+    display: block;
+    margin: 10px auto;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#result{
+    padding: 10px;
+    background-color: rgb(216, 210, 210);
+}
